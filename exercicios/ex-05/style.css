@@ -1,0 +1,56 @@
+@charset "UTF 08";
+
+body{
+    font-size: 1.2rem;
+}
+
+h1{
+    font-size: min(30px, 5vw);
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+.container{
+    display: flex;
+    max-width: 480px;
+    margin: 0px auto;
+    border: 1px solid black;
+}
+
+.column{
+    flex-direction: column;
+}
+
+.item{
+    font-size: min(1.7em, 4vw);
+    text-align: center;
+    background-color: orangered;
+    margin: 10px;
+    padding: 0px 10px;
+    flex: 1;
+}
+
+.mod{
+    padding-top: 20px;
+}
+
+.mod1{
+    padding-left: 20px;
+}
+
+.flex-start{
+    align-items: flex-start;
+}
+
+.flex-end{
+    align-items: flex-end;
+}
+
+.center{
+    align-items: center;
+}
+
+.baseline{
+    align-items: baseline;
+}
